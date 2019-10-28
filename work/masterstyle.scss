@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+//fjerner predefined styles
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+//Variabler og generelle styles
+@import 'colors';
+@import 'fonts';
+
+//custom layout
+@import 'custom-nav';
+@import 'layout';
+@import 'bottons';
+
+//Media query
+@import 'mediaquery';

@@ -1,0 +1,24 @@
+.img-slide{
+    background-image: url('../images/slider.jpg');
+    background-repeat: no-repeat;
+    background-color: $white;
+    height: 500px;
+
+    .img-text{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: $white;
+
+        button{
+            margin-top: 25px;
+            width: 200px;
+
+            h4{
+                color: white;
+            }
+        }
+
+    }
+}
