@@ -1,9 +1,10 @@
 <!--Navbar -->
-<nav class="mb-1 navbar navbar-expand-lg container custom-nav">
+<nav class="navbar navbar-expand-lg navbar-inverse bg-inverse navbar-toggleable-sm container custom-nav">
   <a class="navbar-brand" href="#"><img src="images/logo_korrekt.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
     aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span><i
+        class="fas fa-bars fa-1x"></i></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
   <ul class="navbar-nav ml-auto nav-flex-icons">

@@ -1,5 +1,21 @@
-<footer>
-
+<footer class="container-fluid">
+    <div class="container">
+        <div class="row virksomheder">
+            <div class="col">
+                <img src="images/aaa.png" alt="...">
+            </div>
+            <div class="col">
+                <img src="images/aaa.png" alt="...">
+            </div>
+            <div class="col">
+                <img src="images/knaekcancer.jpg" alt="...">
+            </div>
+        </div>
+        <div class="row footer-text">
+            <div class="col-10 col-sm-12 col-xs-12"><p><b>Vedsted Gulvservice ApS</b> | Industrivangen 22 | 2635 Ishøj | Tlf.: 44 91 48 91 | info@vedsted-gulve.dk</p></div>
+            <div class="col-2 col-sm-12 col-xs-12"><small class="float-right">Designet af Standoutmedia</small></div>
+        </div>
+    </div>
 </footer>
 <!-- Bootstrap javascript -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

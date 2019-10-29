@@ -1,9 +1,14 @@
+/* ----------------------------------
+        Custom navbar
+    I forlængelse af bootstrap 
+------------------------------------*/
 .navbar-expand-lg .navbar-collapse {
     flex-direction: column;
 }
 
 .custom-nav{
     background: $white;
+    padding-bottom: $spacer / 4;
 
     .navbar-brand img{
         width: 150px;
@@ -12,6 +17,7 @@
     .navbar-nav{
         float: right;
         padding: 0;
+        padding-bottom: $spacer / 4 !important;
 
         .nav-link{
             color: $black;
@@ -22,10 +28,15 @@
             }
             .active-bar{
                 width: 100%;
-                height: 5px;
+                height: 3px;
                 background-color: $secondary-color;
             }
         }
+
+        .active h6 {
+            font-weight: $semibold;
+        }
+
         .waves-effect{
                 display: flex;
                 flex-direction: row;

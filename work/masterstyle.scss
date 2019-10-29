@@ -8,13 +8,15 @@
 
 
 //Variabler og generelle styles
+@import 'global-variabler';
 @import 'colors';
 @import 'fonts';
 
 //custom layout
-@import 'custom-nav';
 @import 'layout';
+@import 'custom-nav';
 @import 'bottons';
+@import 'custom-form';
 
 //Media query
 @import 'mediaquery';

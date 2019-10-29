@@ -7,6 +7,15 @@ $btn-padding: 10px 0;
     background: $primary-color;
 }
 
+.btn:hover{
+    background-color: $secondary-color;
+}
+
 .btn-opacity{
     background-color: $primary-color-opacity !important;
+}
+
+form .btn{
+    border-radius: 0;
+    width: 100%;
 }

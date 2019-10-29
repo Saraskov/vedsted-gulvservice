@@ -1,0 +1,15 @@
+form{
+    .form-control{
+        border-radius: 0;
+        margin: 10px 0;
+    }
+
+    .form-control:first-of-type{
+        margin-top: 0;
+    }
+
+    .btn{
+        margin-top: 5px;
+        color: white;
+    }
+}

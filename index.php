@@ -36,12 +36,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h4>Vi rådgiver gerne</h4>
+                        <h4><b>Vi rådgiver gerne</b></h4>
                         <p>Er du i tvivl om, hvad den rigtige løsning er for dig? Så hjælper vi gerne med at finde svaret. Lad os aftale et møde og se på det sammen - så kan vi hurtigt fortælle, om du har brug for et helt nyt gulv - eller om det kan klares med en omgang slibning og behandling.</p>
                         <p>Ring eller skriv - så skal vi nok hjælpe dig godt videre</p>
                     </div>
                     <div class="col">
-                        <h4>Vi har erfaringen</h4>
+                        <h4><b>Vi har erfaringen</b></h4>
                         <p>Hos Vedsted Gulvservice har vi i generationer laveret flotte gulvløsninger til sjællandske familier, organsationer og virksomheder.</p>
                         <p>Så har du et behov, så tøv ikke - tag fat i os, så finder vi den løsning, der er den helt rigtige for dig.</p>
                     </div>
@@ -62,12 +62,12 @@
         <div class="container">
             <div class="row text-box text-box-2">
                 <div class="col">
-                    <h5>Kontakt os</h5>
+                    <h4>Kontakt os</h4>
                     <p>Kontakt os i dag på telefon: <b>44 91 48 91</b> eller på e-mail: <b>info@vedsted-gulve.dk</b> og lad os høre hvad du drømmer om.<br>Så skal vi nok gøre vores for, at drømmen går i opfyldelse.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
+            <div class="row spacer">
+                <div class="col-lg-6 col-md-12">
                 <form class="needs-validation" novalidate>
                     <div class="form-row">
                         <div class="col-12">
@@ -89,16 +89,18 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <input type="text" class="form-control" placeholder="Besked" required>
+                            <textarea type="text" class="form-control" id="comment" rows="5" placeholder="Besked" id="besked-text" required></textarea>
                             <div class="invalid-feedback">
                                 Skriv din besked til os
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-primary" type="submit">Submit form</button>
+                    <button class="btn" type="submit">SEND</button>
                     </form>
                 </div>
-                <div class="col"></div>
+                <div class="col-lg-6 col-md-12">
+                <div style="width: 100%"><iframe width="100%" height="350" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Industrivangen%2022+(Vedstad%20Gulvservice%20ApS)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/coordinates.html">gps coordinates finder</a></iframe></div><br />
+                </div>
             </div>
         </div>
     </main>
