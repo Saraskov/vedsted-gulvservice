@@ -5,15 +5,15 @@
                 <img src="images/aaa.png" alt="...">
             </div>
             <div class="col">
-                <img src="images/aaa.png" alt="...">
+                <img src="images/byggeriets-ankenaevn-hvid.png" alt="...">
             </div>
             <div class="col">
                 <img src="images/knaekcancer.jpg" alt="...">
             </div>
         </div>
         <div class="row footer-text">
-            <div class="col-10 col-sm-12 col-xs-12"><p><b>Vedsted Gulvservice ApS</b> | Industrivangen 22 | 2635 Ishøj | Tlf.: 44 91 48 91 | info@vedsted-gulve.dk</p></div>
-            <div class="col-2 col-sm-12 col-xs-12"><small class="float-right">Designet af Standoutmedia</small></div>
+            <div class="col-lg-10 col-sm-12 col-xs-12"><p><b>Vedsted Gulvservice ApS</b> | Industrivangen 22 | 2635 Ishøj | Tlf.: 44 91 48 91 | info@vedsted-gulve.dk</p></div>
+            <div class="col-lg-2 col-sm-12 col-xs-12"><small class="float-right">Designet af Standoutmedia</small></div>
         </div>
     </div>
 </footer>

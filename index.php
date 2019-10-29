@@ -38,7 +38,7 @@
                     <div class="col">
                         <h4><b>Vi rådgiver gerne</b></h4>
                         <p>Er du i tvivl om, hvad den rigtige løsning er for dig? Så hjælper vi gerne med at finde svaret. Lad os aftale et møde og se på det sammen - så kan vi hurtigt fortælle, om du har brug for et helt nyt gulv - eller om det kan klares med en omgang slibning og behandling.</p>
-                        <p>Ring eller skriv - så skal vi nok hjælpe dig godt videre</p>
+                        <p>Ring eller skriv - så skal vi nok hjælpe dig godt videre.</p>
                     </div>
                     <div class="col">
                         <h4><b>Vi har erfaringen</b></h4>
