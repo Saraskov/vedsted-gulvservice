@@ -1,9 +1,11 @@
 $spacer: 40px;
 
+
+
 .img-slide{
-    background-image: url('../images/slider.jpg');
     background-repeat: no-repeat;
     background-color: $white;
+    background-size: cover;
     height: 500px;
 
     .img-text{
@@ -21,11 +23,57 @@ $spacer: 40px;
                 color: white;
             }
         }
-
     }
+}
+// Background images for sliders
+#bg-1{
+    background-image: url('../images/slider.jpg');
+}
+
+#bg-2{
+    background-image: url('../images/trae.jpg');
+    padding-top: $spacer / 2 ;
+    padding-bottom: $spacer;
+    height: auto !important;
+
+    h4, p{
+        margin-bottom: $spacer / 2;
+    }
+
+    .virksomheder{
+        margin-top: $spacer;
+        text-align: center;
+        .col{
+            height: 100px;
+            line-height: 100px;
+            img{
+            max-width: 300px;
+            max-height: 100px;
+            vertical-align: middle;
+            }
+        }
+    }
+}
+
+.text-box{
+    text-align: center;
+    margin: $spacer auto;
 }
 
 .text-box-1{
     max-width: 550px;
-    margin: $spacer auto;
+}
+
+.text-box-2{
+    max-width: 750px;
+}
+
+.img-grid{
+    margin-bottom: $spacer;
+    img{
+        width: 100%;
+    }
+    .img-grid-text{
+        margin: 1.5rem 0 $spacer 0;
+    }
 }

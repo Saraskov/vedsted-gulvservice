@@ -10,13 +10,13 @@
       <li class="nav-item">
         <a class="nav-link waves-effect ">
           <i class="fas fa-envelope"></i>
-          <h5>Info@vedsted-gulve.dk</h5>
+          <h6>Info@vedsted-gulve.dk</h6>
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link waves-effect attention-color">
           <i class='fas fa-phone'></i>
-          <h5>44 91 48 99</h5>
+          <h6>44 91 48 99</h6>
         </a>
       </li>
       
@@ -28,27 +28,27 @@
     </ul>  
   <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#"><h5>Velkommen</h5>
+        <a class="nav-link" href="#"><h6>Velkommen</h6>
           <div class="active-bar"></div>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><h5>Gulvslibning & behandling</h5></a>
+        <a class="nav-link" href="#"><h6>Gulvslibning & behandling</h6></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><h5>Linoleum, vinyl & tæpper</h5></a>
+        <a class="nav-link" href="#"><h6>Linoleum, vinyl & tæpper</h6></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><h5>Gulvvådrum</h5></a>
+        <a class="nav-link" href="#"><h6>Gulvvådrum</h6></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><h5>Trægulv</h5></a>
+        <a class="nav-link" href="#"><h6>Trægulv</h6></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><h5>Om os</h5></a>
+        <a class="nav-link" href="#"><h6>Om os</h6></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><h5>Kontakt</h5></a>
+        <a class="nav-link" href="#"><h6>Kontakt</h6></a>
       </li>
     </ul>
   </div>

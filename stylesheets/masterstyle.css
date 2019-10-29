@@ -19,7 +19,8 @@ h2 {
 
 h3 {
   font-weight: 700;
-  font-size: 20pt; }
+  font-size: 20pt;
+  width: 100%; }
 
 h4 {
   font-weight: 400;
@@ -27,8 +28,12 @@ h4 {
   margin: 0; }
 
 h5 {
+  font-weight: 800;
+  font-size: 11pt; }
+
+h6 {
   font-weight: 600;
-  font-size: 10pt; }
+  font-size: 10pt !important; }
 
 .navbar-expand-lg .navbar-collapse {
   flex-direction: column; }
@@ -42,7 +47,7 @@ h5 {
     padding: 0; }
     .custom-nav .navbar-nav .nav-link {
       color: #000; }
-      .custom-nav .navbar-nav .nav-link h5 {
+      .custom-nav .navbar-nav .nav-link h6 {
         margin: 0;
         padding: 0 5px; }
       .custom-nav .navbar-nav .nav-link .active-bar {
@@ -59,9 +64,9 @@ h5 {
   .nav-flex-icons {
     display: none; } }
 .img-slide {
-  background-image: url("../images/slider.jpg");
   background-repeat: no-repeat;
   background-color: #fff;
+  background-size: cover;
   height: 500px; }
   .img-slide .img-text {
     height: 100%;
@@ -75,9 +80,43 @@ h5 {
       .img-slide .img-text button h4 {
         color: white; }
 
-.text-box-1 {
-  max-width: 550px;
+#bg-1 {
+  background-image: url("../images/slider.jpg"); }
+
+#bg-2 {
+  background-image: url("../images/trae.jpg");
+  padding-top: 20px;
+  padding-bottom: 40px;
+  height: auto !important; }
+  #bg-2 h4, #bg-2 p {
+    margin-bottom: 20px; }
+  #bg-2 .virksomheder {
+    margin-top: 40px;
+    text-align: center; }
+    #bg-2 .virksomheder .col {
+      height: 100px;
+      line-height: 100px; }
+      #bg-2 .virksomheder .col img {
+        max-width: 300px;
+        max-height: 100px;
+        vertical-align: middle; }
+
+.text-box {
+  text-align: center;
   margin: 40px auto; }
+
+.text-box-1 {
+  max-width: 550px; }
+
+.text-box-2 {
+  max-width: 750px; }
+
+.img-grid {
+  margin-bottom: 40px; }
+  .img-grid img {
+    width: 100%; }
+  .img-grid .img-grid-text {
+    margin: 1.5rem 0 40px 0; }
 
 .btn {
   border: none;
@@ -90,4 +129,10 @@ h5 {
 
 @media only screen and (min-width: 992px) {
   .container {
-    padding: 0; } }
+    padding: 0; }
+
+  .img-grid .img-grid-text {
+    margin: 1.5rem 0 0 0; } }
+@media only screen and (max-width: 720px) {
+  #bg-2 {
+    display: none; } }

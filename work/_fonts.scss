@@ -23,6 +23,7 @@ h2{
 h3{
     font-weight: $bold;
     font-size: 20pt;
+    width: 100%;
 }
 
 h4{
@@ -32,6 +33,11 @@ h4{
 }
 
 h5{
+    font-weight: $extrabold;
+    font-size: 11pt;
+}
+
+h6{
     font-weight: $semibold;
-    font-size: 10pt;
+    font-size: 10pt !important;
 }
